@@ -1,12 +1,17 @@
-import Header from "./header"
+import Footer from "./Components/Footer/Footer"
+import Header from "./Components/Header/Header"
+import Login from "./Components/Login/Login"
+import './App.css';
+
 
 function App() {
   return (
     <>
-      <div>Olá, mundo!</div>
       <Header></Header>
+      <Login></Login>
+      <Footer></Footer>
     </>
   )
 }
 
-export default App
+export default App;

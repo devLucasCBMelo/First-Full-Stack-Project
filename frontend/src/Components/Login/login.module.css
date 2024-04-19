@@ -1,0 +1,26 @@
+h3 {
+  color: blue;
+}
+
+input {
+  color: red;
+  background-color: rgb(10, 40, 100);
+  border-radius: 5px;
+  padding: 5px;
+  margin-bottom: 5px;
+}
+
+div {
+  display: flex;
+  flex-direction: column;
+  width: 30%;
+  align-items: center;
+}
+
+.container_form {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  justify-content: center;
+}
